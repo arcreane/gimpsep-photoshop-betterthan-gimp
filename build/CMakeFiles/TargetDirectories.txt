@@ -1,0 +1,9 @@
+D:/Projet/gimpsep-photoshop-betterthan-gimp/build/CMakeFiles/Experimental.dir
+D:/Projet/gimpsep-photoshop-betterthan-gimp/build/CMakeFiles/Nightly.dir
+D:/Projet/gimpsep-photoshop-betterthan-gimp/build/CMakeFiles/Continuous.dir
+D:/Projet/gimpsep-photoshop-betterthan-gimp/build/CMakeFiles/NightlyMemoryCheck.dir
+D:/Projet/gimpsep-photoshop-betterthan-gimp/build/CMakeFiles/GIMPSEP.dir
+D:/Projet/gimpsep-photoshop-betterthan-gimp/build/CMakeFiles/PACKAGE.dir
+D:/Projet/gimpsep-photoshop-betterthan-gimp/build/CMakeFiles/RUN_TESTS.dir
+D:/Projet/gimpsep-photoshop-betterthan-gimp/build/CMakeFiles/ALL_BUILD.dir
+D:/Projet/gimpsep-photoshop-betterthan-gimp/build/CMakeFiles/ZERO_CHECK.dir
