@@ -1,4 +1,4 @@
-#include "OpenCV.h"
+#include "../header/OpenCV.h"
 
 OpenCV::~OpenCV()
 {
