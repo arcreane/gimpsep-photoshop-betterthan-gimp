@@ -1,4 +1,8 @@
-#include "../header/OpenCV.h"
+//
+// Created by Cecile LI on 24/05/2022.
+//
+
+#include "OpenCV.h"
 
 OpenCV::~OpenCV()
 {
@@ -7,7 +11,7 @@ OpenCV::~OpenCV()
 void OpenCV::setDataPath(string path) {
     samples::addSamplesDataSearchPath(path);
 };
- 
+
 Mat OpenCV::setImage(string imageName) {
     String imagePath = samples::findFile(imageName);
     return imread(imagePath);
