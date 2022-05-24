@@ -7,17 +7,18 @@
 using namespace cv;
 using namespace std;
 
-class OpenCV
+class Image
 {
 private:
     String path;
     Mat image;
 
 public:
-    ~OpenCV();
+    ~Image();
 
     void setDataPath(const String path);
     void setImage(const String path, const String name);
+    void changeImage(Mat image);
     void displayImage(const String windowName);
 
     Mat getImage();

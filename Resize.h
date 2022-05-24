@@ -8,9 +8,9 @@ class Resize
 {
 private:
     double scale;
-    Mat resizedImage;
+    int width;
+    int height;
+    int dim[2];
 public:
-
-    void resizeImage(string path, Mat image);
-
+    Mat resizeImage(Mat image, double scale);
 };
