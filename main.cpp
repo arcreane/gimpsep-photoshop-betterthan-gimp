@@ -23,14 +23,14 @@ int main() {
     string wanted;
 
     while(wanted == "Exit" || wanted == "exit") {
-        cout << "Que voulez-vous faire ? (écrire un des choix suivant)\nResize Brightness Erode Dilate Panorama Stitching\n Exit pour stop le programme";
+        cout << "Que voulez-vous faire ? (Ã©crire un des choix suivant)\nResize Brightness Erode Dilate Panorama Stitching\n Exit pour stop le programme";
         cin >> wanted;
 
         if(wanted == "Resize" || wanted == "resize" ) {
             double scale;
             Resize resize;
 
-            cout << "Rentrer l'échelle de resize (nombre entre 0 et 1)";
+            cout << "Rentrer l'Ã©chelle de resize (nombre entre 0 et 1)";
             cin >> scale;
             
             configuratorOfImage.changeImage(resize.resizeImage(configuratorOfImage.getImage(), scale));

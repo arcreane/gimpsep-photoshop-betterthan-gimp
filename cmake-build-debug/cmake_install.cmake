@@ -1,4 +1,4 @@
-# Install script for directory: /Users/cecile/Documents/ISEP/A2/application multimedia/gimpsep-photoshop-betterthan-gimp
+# Install script for directory: /Users/cecile/Documents/GitHub/Gimpsep
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/cecile/Documents/ISEP/A2/application multimedia/gimpsep-photoshop-betterthan-gimp/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/cecile/Documents/GitHub/Gimpsep/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
