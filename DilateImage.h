@@ -12,7 +12,7 @@ class DilateImage
 public:
 	~DilateImage();
 
-	Mat dilating(int dilateElem, int dilateSize, Mat image);
+	Mat dilating(Mat image, int dilateElem, int dilateSize);
 
 private:
 	int dilateType = 0;

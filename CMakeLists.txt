@@ -9,6 +9,6 @@ include_directories(${OpenCV_INCLUDE_DIRS})
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(GIMPSEP main.cpp "Image.cpp" "Image.h" "ResizeImage.cpp" "ResizeImage.h" "Brightness.cpp" "Brightness.h" "DilateImage.cpp" "DilateImage.h" "Erode.cpp")
+add_executable(GIMPSEP main.cpp "Image.cpp" "Image.h" "ResizeImage.cpp" "ResizeImage.h" "Brightness.cpp" "Brightness.h" "DilateImage.cpp" "DilateImage.h" "ErodeImage.cpp" "ErodeImage.h")
 
 target_link_libraries(GIMPSEP ${OpenCV_LIBS})

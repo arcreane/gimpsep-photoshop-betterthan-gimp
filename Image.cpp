@@ -2,11 +2,13 @@
 
 Image::~Image() {}
 
-void Image::setDataPath(const String folderPath) {
+void Image::setDataPath(const String folderPath) 
+{
     path = folderPath;
 };
 
-void Image::setImage(const String folderPath, const String imageName) {
+void Image::setImage(const String folderPath, const String imageName) 
+{
     setDataPath(folderPath);
 
     samples::addSamplesDataSearchPath(folderPath);
@@ -15,21 +17,25 @@ void Image::setImage(const String folderPath, const String imageName) {
     image = imread(imagePath);
 };
 
-void Image::changeImage(Mat newImage) {
+void Image::changeImage(Mat newImage)
+{
     image = newImage;
 }
 
-void Image::displayImage() {
+void Image::displayImage() 
+{
     namedWindow(windowName);
     imshow (windowName, image);
     cout << "Fermer l'image pour continuer\n" << endl;
     waitKey(0);
 }
 
-Mat Image::getImage() {
+Mat Image::getImage() 
+{
     return image;
 }
 
-String Image::getWindowName() {
+String Image::getWindowName() 
+{
     return windowName;
 }
