@@ -15,6 +15,6 @@ int main() {
     cout << "Enter the image name\n";
     cin >> imageName;
 
-    opencv.setImage(imageName);
+    opencv.setImage(folderLocation, imageName);
     opencv.displayImage("tetes");
 }

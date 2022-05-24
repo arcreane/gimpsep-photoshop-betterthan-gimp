@@ -10,11 +10,12 @@ using namespace std;
 class OpenCV
 {
 private:
+    String path;
     Mat image;
 public:
     ~OpenCV();
     void setDataPath(const String path);
-    Mat setImage(String name);
+    Mat setImage(const String path, const String name);
     void displayImage(String windowName);
 };
 
