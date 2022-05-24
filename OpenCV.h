@@ -1,7 +1,3 @@
-//
-// Created by Cecile LI on 24/05/2022.
-//
-
 #ifndef TEST_OPENCV_H
 #define TEST_OPENCV_H
 
@@ -17,9 +13,9 @@ private:
     Mat image;
 public:
     ~OpenCV();
-    void setDataPath(string path);
-    Mat setImage(string name);
-    void displayImage(string windowName);
+    void setDataPath(const String path);
+    Mat setImage(String name);
+    void displayImage(String windowName);
 };
 
-#endif //TEST_OPENCV_H
+#endif

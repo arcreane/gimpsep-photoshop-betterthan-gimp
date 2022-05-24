@@ -1,23 +1,19 @@
-//
-// Created by Cecile LI on 24/05/2022.
-//
-
 #include "OpenCV.h"
 
 OpenCV::~OpenCV()
 {
 }
 
-void OpenCV::setDataPath(string path) {
+void OpenCV::setDataPath(const String path) {
     samples::addSamplesDataSearchPath(path);
 };
 
-Mat OpenCV::setImage(string imageName) {
+Mat OpenCV::setImage(String imageName) {
     String imagePath = samples::findFile(imageName);
     return imread(imagePath);
 };
 
-void OpenCV::displayImage(string windowName) {
+void OpenCV::displayImage(String windowName) {
     namedWindow(windowName, WINDOW_AUTOSIZE);
     imshow (windowName, image);
     waitKey(0);
