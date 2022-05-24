@@ -49,6 +49,16 @@ int main() {
             image.changeImage(resizeImage.resizing(image.getImage(), scale));
             image.displayImage();
         }
+        else if (wanted == 2)
+        {
+            int level;
+            cout << "\nEntrer un nombre - Pourcentage de luminosité\n";
+            cin >> level;
+            Mat imageBrighness;
+            image.getImage().convertTo(imageBrighness, -1, 1, level);
+            image.changeImage(imageBrighness);
+            image.displayImage();
+        }
         else if (wanted == 3) {
             int erodeElem;
             cout << "\nEntrer un nombre\nErosion form:\n 0: Rect \n 1: Cross \n 2: Ellipse\n";
@@ -101,5 +111,6 @@ int main() {
             image.changeImage(dilateImage.dilating(image.getImage(), dilateElem, dilateSize));
             image.displayImage();
         }
+        
     }
 }
