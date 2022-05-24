@@ -1,7 +1,5 @@
 build/
 .vscode/
 .DS_Store
-*.iml
-.idea/gimpsep-photoshop-betterthan-gimp.iml
 .vs/
 CMakeSettings.json
