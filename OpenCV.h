@@ -12,11 +12,15 @@ class OpenCV
 private:
     String path;
     Mat image;
+
 public:
     ~OpenCV();
+
     void setDataPath(const String path);
-    Mat setImage(const String path, const String name);
-    void displayImage(String windowName);
+    void setImage(const String path, const String name);
+    void displayImage(const String windowName);
+
+    Mat getImage();
 };
 
 #endif
