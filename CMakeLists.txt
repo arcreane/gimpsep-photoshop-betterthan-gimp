@@ -11,4 +11,4 @@ set(CMAKE_CXX_STANDARD 14)
 
 add_executable(GIMPSEP main.cpp OpenCV.cpp OpenCV.h)
 
-target_link_libraries(test ${OpenCV_LIBS})
+target_link_libraries(GIMPSEP ${OpenCV_LIBS})
