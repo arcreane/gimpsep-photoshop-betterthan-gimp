@@ -8,11 +8,10 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/cecile/Documents/GitHub/Gimpsep/Brightness.cpp" "CMakeFiles/GIMPSEP.dir/Brightness.cpp.o" "gcc" "CMakeFiles/GIMPSEP.dir/Brightness.cpp.o.d"
-  "/Users/cecile/Documents/GitHub/Gimpsep/Dilate.cpp" "CMakeFiles/GIMPSEP.dir/Dilate.cpp.o" "gcc" "CMakeFiles/GIMPSEP.dir/Dilate.cpp.o.d"
-  "/Users/cecile/Documents/GitHub/Gimpsep/Erode.cpp" "CMakeFiles/GIMPSEP.dir/Erode.cpp.o" "gcc" "CMakeFiles/GIMPSEP.dir/Erode.cpp.o.d"
+  "/Users/cecile/Documents/GitHub/Gimpsep/DilateImage.cpp" "CMakeFiles/GIMPSEP.dir/DilateImage.cpp.o" "gcc" "CMakeFiles/GIMPSEP.dir/DilateImage.cpp.o.d"
+  "/Users/cecile/Documents/GitHub/Gimpsep/ErodeImage.cpp" "CMakeFiles/GIMPSEP.dir/ErodeImage.cpp.o" "gcc" "CMakeFiles/GIMPSEP.dir/ErodeImage.cpp.o.d"
   "/Users/cecile/Documents/GitHub/Gimpsep/Image.cpp" "CMakeFiles/GIMPSEP.dir/Image.cpp.o" "gcc" "CMakeFiles/GIMPSEP.dir/Image.cpp.o.d"
-  "/Users/cecile/Documents/GitHub/Gimpsep/Resize.cpp" "CMakeFiles/GIMPSEP.dir/Resize.cpp.o" "gcc" "CMakeFiles/GIMPSEP.dir/Resize.cpp.o.d"
+  "/Users/cecile/Documents/GitHub/Gimpsep/ResizeImage.cpp" "CMakeFiles/GIMPSEP.dir/ResizeImage.cpp.o" "gcc" "CMakeFiles/GIMPSEP.dir/ResizeImage.cpp.o.d"
   "/Users/cecile/Documents/GitHub/Gimpsep/main.cpp" "CMakeFiles/GIMPSEP.dir/main.cpp.o" "gcc" "CMakeFiles/GIMPSEP.dir/main.cpp.o.d"
   )
 

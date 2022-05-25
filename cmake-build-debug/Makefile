@@ -129,77 +129,53 @@ GIMPSEP/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/GIMPSEP.dir/build.make CMakeFiles/GIMPSEP.dir/build
 .PHONY : GIMPSEP/fast
 
-Brightness.o: Brightness.cpp.o
-.PHONY : Brightness.o
+DilateImage.o: DilateImage.cpp.o
+.PHONY : DilateImage.o
 
 # target to build an object file
-Brightness.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/GIMPSEP.dir/build.make CMakeFiles/GIMPSEP.dir/Brightness.cpp.o
-.PHONY : Brightness.cpp.o
+DilateImage.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GIMPSEP.dir/build.make CMakeFiles/GIMPSEP.dir/DilateImage.cpp.o
+.PHONY : DilateImage.cpp.o
 
-Brightness.i: Brightness.cpp.i
-.PHONY : Brightness.i
+DilateImage.i: DilateImage.cpp.i
+.PHONY : DilateImage.i
 
 # target to preprocess a source file
-Brightness.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/GIMPSEP.dir/build.make CMakeFiles/GIMPSEP.dir/Brightness.cpp.i
-.PHONY : Brightness.cpp.i
+DilateImage.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GIMPSEP.dir/build.make CMakeFiles/GIMPSEP.dir/DilateImage.cpp.i
+.PHONY : DilateImage.cpp.i
 
-Brightness.s: Brightness.cpp.s
-.PHONY : Brightness.s
+DilateImage.s: DilateImage.cpp.s
+.PHONY : DilateImage.s
 
 # target to generate assembly for a file
-Brightness.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/GIMPSEP.dir/build.make CMakeFiles/GIMPSEP.dir/Brightness.cpp.s
-.PHONY : Brightness.cpp.s
+DilateImage.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GIMPSEP.dir/build.make CMakeFiles/GIMPSEP.dir/DilateImage.cpp.s
+.PHONY : DilateImage.cpp.s
 
-Dilate.o: Dilate.cpp.o
-.PHONY : Dilate.o
+ErodeImage.o: ErodeImage.cpp.o
+.PHONY : ErodeImage.o
 
 # target to build an object file
-Dilate.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/GIMPSEP.dir/build.make CMakeFiles/GIMPSEP.dir/Dilate.cpp.o
-.PHONY : Dilate.cpp.o
+ErodeImage.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GIMPSEP.dir/build.make CMakeFiles/GIMPSEP.dir/ErodeImage.cpp.o
+.PHONY : ErodeImage.cpp.o
 
-Dilate.i: Dilate.cpp.i
-.PHONY : Dilate.i
-
-# target to preprocess a source file
-Dilate.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/GIMPSEP.dir/build.make CMakeFiles/GIMPSEP.dir/Dilate.cpp.i
-.PHONY : Dilate.cpp.i
-
-Dilate.s: Dilate.cpp.s
-.PHONY : Dilate.s
-
-# target to generate assembly for a file
-Dilate.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/GIMPSEP.dir/build.make CMakeFiles/GIMPSEP.dir/Dilate.cpp.s
-.PHONY : Dilate.cpp.s
-
-Erode.o: Erode.cpp.o
-.PHONY : Erode.o
-
-# target to build an object file
-Erode.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/GIMPSEP.dir/build.make CMakeFiles/GIMPSEP.dir/Erode.cpp.o
-.PHONY : Erode.cpp.o
-
-Erode.i: Erode.cpp.i
-.PHONY : Erode.i
+ErodeImage.i: ErodeImage.cpp.i
+.PHONY : ErodeImage.i
 
 # target to preprocess a source file
-Erode.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/GIMPSEP.dir/build.make CMakeFiles/GIMPSEP.dir/Erode.cpp.i
-.PHONY : Erode.cpp.i
+ErodeImage.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GIMPSEP.dir/build.make CMakeFiles/GIMPSEP.dir/ErodeImage.cpp.i
+.PHONY : ErodeImage.cpp.i
 
-Erode.s: Erode.cpp.s
-.PHONY : Erode.s
+ErodeImage.s: ErodeImage.cpp.s
+.PHONY : ErodeImage.s
 
 # target to generate assembly for a file
-Erode.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/GIMPSEP.dir/build.make CMakeFiles/GIMPSEP.dir/Erode.cpp.s
-.PHONY : Erode.cpp.s
+ErodeImage.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GIMPSEP.dir/build.make CMakeFiles/GIMPSEP.dir/ErodeImage.cpp.s
+.PHONY : ErodeImage.cpp.s
 
 Image.o: Image.cpp.o
 .PHONY : Image.o
@@ -225,29 +201,29 @@ Image.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/GIMPSEP.dir/build.make CMakeFiles/GIMPSEP.dir/Image.cpp.s
 .PHONY : Image.cpp.s
 
-Resize.o: Resize.cpp.o
-.PHONY : Resize.o
+ResizeImage.o: ResizeImage.cpp.o
+.PHONY : ResizeImage.o
 
 # target to build an object file
-Resize.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/GIMPSEP.dir/build.make CMakeFiles/GIMPSEP.dir/Resize.cpp.o
-.PHONY : Resize.cpp.o
+ResizeImage.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GIMPSEP.dir/build.make CMakeFiles/GIMPSEP.dir/ResizeImage.cpp.o
+.PHONY : ResizeImage.cpp.o
 
-Resize.i: Resize.cpp.i
-.PHONY : Resize.i
+ResizeImage.i: ResizeImage.cpp.i
+.PHONY : ResizeImage.i
 
 # target to preprocess a source file
-Resize.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/GIMPSEP.dir/build.make CMakeFiles/GIMPSEP.dir/Resize.cpp.i
-.PHONY : Resize.cpp.i
+ResizeImage.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GIMPSEP.dir/build.make CMakeFiles/GIMPSEP.dir/ResizeImage.cpp.i
+.PHONY : ResizeImage.cpp.i
 
-Resize.s: Resize.cpp.s
-.PHONY : Resize.s
+ResizeImage.s: ResizeImage.cpp.s
+.PHONY : ResizeImage.s
 
 # target to generate assembly for a file
-Resize.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/GIMPSEP.dir/build.make CMakeFiles/GIMPSEP.dir/Resize.cpp.s
-.PHONY : Resize.cpp.s
+ResizeImage.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GIMPSEP.dir/build.make CMakeFiles/GIMPSEP.dir/ResizeImage.cpp.s
+.PHONY : ResizeImage.cpp.s
 
 main.o: main.cpp.o
 .PHONY : main.o
@@ -282,21 +258,18 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... GIMPSEP"
-	@echo "... Brightness.o"
-	@echo "... Brightness.i"
-	@echo "... Brightness.s"
-	@echo "... Dilate.o"
-	@echo "... Dilate.i"
-	@echo "... Dilate.s"
-	@echo "... Erode.o"
-	@echo "... Erode.i"
-	@echo "... Erode.s"
+	@echo "... DilateImage.o"
+	@echo "... DilateImage.i"
+	@echo "... DilateImage.s"
+	@echo "... ErodeImage.o"
+	@echo "... ErodeImage.i"
+	@echo "... ErodeImage.s"
 	@echo "... Image.o"
 	@echo "... Image.i"
 	@echo "... Image.s"
-	@echo "... Resize.o"
-	@echo "... Resize.i"
-	@echo "... Resize.s"
+	@echo "... ResizeImage.o"
+	@echo "... ResizeImage.i"
+	@echo "... ResizeImage.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

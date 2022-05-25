@@ -97,80 +97,64 @@ CMakeFiles/GIMPSEP.dir/Image.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GIMPSEP.dir/Image.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/cecile/Documents/GitHub/Gimpsep/Image.cpp -o CMakeFiles/GIMPSEP.dir/Image.cpp.s
 
-CMakeFiles/GIMPSEP.dir/Resize.cpp.o: CMakeFiles/GIMPSEP.dir/flags.make
-CMakeFiles/GIMPSEP.dir/Resize.cpp.o: ../Resize.cpp
-CMakeFiles/GIMPSEP.dir/Resize.cpp.o: CMakeFiles/GIMPSEP.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cecile/Documents/GitHub/Gimpsep/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/GIMPSEP.dir/Resize.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GIMPSEP.dir/Resize.cpp.o -MF CMakeFiles/GIMPSEP.dir/Resize.cpp.o.d -o CMakeFiles/GIMPSEP.dir/Resize.cpp.o -c /Users/cecile/Documents/GitHub/Gimpsep/Resize.cpp
+CMakeFiles/GIMPSEP.dir/ResizeImage.cpp.o: CMakeFiles/GIMPSEP.dir/flags.make
+CMakeFiles/GIMPSEP.dir/ResizeImage.cpp.o: ../ResizeImage.cpp
+CMakeFiles/GIMPSEP.dir/ResizeImage.cpp.o: CMakeFiles/GIMPSEP.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cecile/Documents/GitHub/Gimpsep/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/GIMPSEP.dir/ResizeImage.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GIMPSEP.dir/ResizeImage.cpp.o -MF CMakeFiles/GIMPSEP.dir/ResizeImage.cpp.o.d -o CMakeFiles/GIMPSEP.dir/ResizeImage.cpp.o -c /Users/cecile/Documents/GitHub/Gimpsep/ResizeImage.cpp
 
-CMakeFiles/GIMPSEP.dir/Resize.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GIMPSEP.dir/Resize.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/cecile/Documents/GitHub/Gimpsep/Resize.cpp > CMakeFiles/GIMPSEP.dir/Resize.cpp.i
+CMakeFiles/GIMPSEP.dir/ResizeImage.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GIMPSEP.dir/ResizeImage.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/cecile/Documents/GitHub/Gimpsep/ResizeImage.cpp > CMakeFiles/GIMPSEP.dir/ResizeImage.cpp.i
 
-CMakeFiles/GIMPSEP.dir/Resize.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GIMPSEP.dir/Resize.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/cecile/Documents/GitHub/Gimpsep/Resize.cpp -o CMakeFiles/GIMPSEP.dir/Resize.cpp.s
+CMakeFiles/GIMPSEP.dir/ResizeImage.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GIMPSEP.dir/ResizeImage.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/cecile/Documents/GitHub/Gimpsep/ResizeImage.cpp -o CMakeFiles/GIMPSEP.dir/ResizeImage.cpp.s
 
-CMakeFiles/GIMPSEP.dir/Brightness.cpp.o: CMakeFiles/GIMPSEP.dir/flags.make
-CMakeFiles/GIMPSEP.dir/Brightness.cpp.o: ../Brightness.cpp
-CMakeFiles/GIMPSEP.dir/Brightness.cpp.o: CMakeFiles/GIMPSEP.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cecile/Documents/GitHub/Gimpsep/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/GIMPSEP.dir/Brightness.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GIMPSEP.dir/Brightness.cpp.o -MF CMakeFiles/GIMPSEP.dir/Brightness.cpp.o.d -o CMakeFiles/GIMPSEP.dir/Brightness.cpp.o -c /Users/cecile/Documents/GitHub/Gimpsep/Brightness.cpp
+CMakeFiles/GIMPSEP.dir/DilateImage.cpp.o: CMakeFiles/GIMPSEP.dir/flags.make
+CMakeFiles/GIMPSEP.dir/DilateImage.cpp.o: ../DilateImage.cpp
+CMakeFiles/GIMPSEP.dir/DilateImage.cpp.o: CMakeFiles/GIMPSEP.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cecile/Documents/GitHub/Gimpsep/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/GIMPSEP.dir/DilateImage.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GIMPSEP.dir/DilateImage.cpp.o -MF CMakeFiles/GIMPSEP.dir/DilateImage.cpp.o.d -o CMakeFiles/GIMPSEP.dir/DilateImage.cpp.o -c /Users/cecile/Documents/GitHub/Gimpsep/DilateImage.cpp
 
-CMakeFiles/GIMPSEP.dir/Brightness.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GIMPSEP.dir/Brightness.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/cecile/Documents/GitHub/Gimpsep/Brightness.cpp > CMakeFiles/GIMPSEP.dir/Brightness.cpp.i
+CMakeFiles/GIMPSEP.dir/DilateImage.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GIMPSEP.dir/DilateImage.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/cecile/Documents/GitHub/Gimpsep/DilateImage.cpp > CMakeFiles/GIMPSEP.dir/DilateImage.cpp.i
 
-CMakeFiles/GIMPSEP.dir/Brightness.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GIMPSEP.dir/Brightness.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/cecile/Documents/GitHub/Gimpsep/Brightness.cpp -o CMakeFiles/GIMPSEP.dir/Brightness.cpp.s
+CMakeFiles/GIMPSEP.dir/DilateImage.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GIMPSEP.dir/DilateImage.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/cecile/Documents/GitHub/Gimpsep/DilateImage.cpp -o CMakeFiles/GIMPSEP.dir/DilateImage.cpp.s
 
-CMakeFiles/GIMPSEP.dir/Dilate.cpp.o: CMakeFiles/GIMPSEP.dir/flags.make
-CMakeFiles/GIMPSEP.dir/Dilate.cpp.o: ../Dilate.cpp
-CMakeFiles/GIMPSEP.dir/Dilate.cpp.o: CMakeFiles/GIMPSEP.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cecile/Documents/GitHub/Gimpsep/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/GIMPSEP.dir/Dilate.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GIMPSEP.dir/Dilate.cpp.o -MF CMakeFiles/GIMPSEP.dir/Dilate.cpp.o.d -o CMakeFiles/GIMPSEP.dir/Dilate.cpp.o -c /Users/cecile/Documents/GitHub/Gimpsep/Dilate.cpp
+CMakeFiles/GIMPSEP.dir/ErodeImage.cpp.o: CMakeFiles/GIMPSEP.dir/flags.make
+CMakeFiles/GIMPSEP.dir/ErodeImage.cpp.o: ../ErodeImage.cpp
+CMakeFiles/GIMPSEP.dir/ErodeImage.cpp.o: CMakeFiles/GIMPSEP.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cecile/Documents/GitHub/Gimpsep/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/GIMPSEP.dir/ErodeImage.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GIMPSEP.dir/ErodeImage.cpp.o -MF CMakeFiles/GIMPSEP.dir/ErodeImage.cpp.o.d -o CMakeFiles/GIMPSEP.dir/ErodeImage.cpp.o -c /Users/cecile/Documents/GitHub/Gimpsep/ErodeImage.cpp
 
-CMakeFiles/GIMPSEP.dir/Dilate.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GIMPSEP.dir/Dilate.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/cecile/Documents/GitHub/Gimpsep/Dilate.cpp > CMakeFiles/GIMPSEP.dir/Dilate.cpp.i
+CMakeFiles/GIMPSEP.dir/ErodeImage.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GIMPSEP.dir/ErodeImage.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/cecile/Documents/GitHub/Gimpsep/ErodeImage.cpp > CMakeFiles/GIMPSEP.dir/ErodeImage.cpp.i
 
-CMakeFiles/GIMPSEP.dir/Dilate.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GIMPSEP.dir/Dilate.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/cecile/Documents/GitHub/Gimpsep/Dilate.cpp -o CMakeFiles/GIMPSEP.dir/Dilate.cpp.s
-
-CMakeFiles/GIMPSEP.dir/Erode.cpp.o: CMakeFiles/GIMPSEP.dir/flags.make
-CMakeFiles/GIMPSEP.dir/Erode.cpp.o: ../Erode.cpp
-CMakeFiles/GIMPSEP.dir/Erode.cpp.o: CMakeFiles/GIMPSEP.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cecile/Documents/GitHub/Gimpsep/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/GIMPSEP.dir/Erode.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/GIMPSEP.dir/Erode.cpp.o -MF CMakeFiles/GIMPSEP.dir/Erode.cpp.o.d -o CMakeFiles/GIMPSEP.dir/Erode.cpp.o -c /Users/cecile/Documents/GitHub/Gimpsep/Erode.cpp
-
-CMakeFiles/GIMPSEP.dir/Erode.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GIMPSEP.dir/Erode.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/cecile/Documents/GitHub/Gimpsep/Erode.cpp > CMakeFiles/GIMPSEP.dir/Erode.cpp.i
-
-CMakeFiles/GIMPSEP.dir/Erode.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GIMPSEP.dir/Erode.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/cecile/Documents/GitHub/Gimpsep/Erode.cpp -o CMakeFiles/GIMPSEP.dir/Erode.cpp.s
+CMakeFiles/GIMPSEP.dir/ErodeImage.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GIMPSEP.dir/ErodeImage.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/cecile/Documents/GitHub/Gimpsep/ErodeImage.cpp -o CMakeFiles/GIMPSEP.dir/ErodeImage.cpp.s
 
 # Object files for target GIMPSEP
 GIMPSEP_OBJECTS = \
 "CMakeFiles/GIMPSEP.dir/main.cpp.o" \
 "CMakeFiles/GIMPSEP.dir/Image.cpp.o" \
-"CMakeFiles/GIMPSEP.dir/Resize.cpp.o" \
-"CMakeFiles/GIMPSEP.dir/Brightness.cpp.o" \
-"CMakeFiles/GIMPSEP.dir/Dilate.cpp.o" \
-"CMakeFiles/GIMPSEP.dir/Erode.cpp.o"
+"CMakeFiles/GIMPSEP.dir/ResizeImage.cpp.o" \
+"CMakeFiles/GIMPSEP.dir/DilateImage.cpp.o" \
+"CMakeFiles/GIMPSEP.dir/ErodeImage.cpp.o"
 
 # External object files for target GIMPSEP
 GIMPSEP_EXTERNAL_OBJECTS =
 
 GIMPSEP: CMakeFiles/GIMPSEP.dir/main.cpp.o
 GIMPSEP: CMakeFiles/GIMPSEP.dir/Image.cpp.o
-GIMPSEP: CMakeFiles/GIMPSEP.dir/Resize.cpp.o
-GIMPSEP: CMakeFiles/GIMPSEP.dir/Brightness.cpp.o
-GIMPSEP: CMakeFiles/GIMPSEP.dir/Dilate.cpp.o
-GIMPSEP: CMakeFiles/GIMPSEP.dir/Erode.cpp.o
+GIMPSEP: CMakeFiles/GIMPSEP.dir/ResizeImage.cpp.o
+GIMPSEP: CMakeFiles/GIMPSEP.dir/DilateImage.cpp.o
+GIMPSEP: CMakeFiles/GIMPSEP.dir/ErodeImage.cpp.o
 GIMPSEP: CMakeFiles/GIMPSEP.dir/build.make
 GIMPSEP: /usr/local/lib/libopencv_gapi.4.5.5.dylib
 GIMPSEP: /usr/local/lib/libopencv_highgui.4.5.5.dylib
@@ -188,7 +172,7 @@ GIMPSEP: /usr/local/lib/libopencv_flann.4.5.5.dylib
 GIMPSEP: /usr/local/lib/libopencv_imgproc.4.5.5.dylib
 GIMPSEP: /usr/local/lib/libopencv_core.4.5.5.dylib
 GIMPSEP: CMakeFiles/GIMPSEP.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/cecile/Documents/GitHub/Gimpsep/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable GIMPSEP"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/cecile/Documents/GitHub/Gimpsep/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable GIMPSEP"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/GIMPSEP.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -82,22 +82,16 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/cecile/Documents/GitHub/Gimpsep/Brightness.cpp">
+		<Unit filename="/Users/cecile/Documents/GitHub/Gimpsep/DilateImage.cpp">
 			<Option target="GIMPSEP"/>
 		</Unit>
-		<Unit filename="/Users/cecile/Documents/GitHub/Gimpsep/Brightness.h">
+		<Unit filename="/Users/cecile/Documents/GitHub/Gimpsep/DilateImage.h">
 			<Option target="GIMPSEP"/>
 		</Unit>
-		<Unit filename="/Users/cecile/Documents/GitHub/Gimpsep/Dilate.cpp">
+		<Unit filename="/Users/cecile/Documents/GitHub/Gimpsep/ErodeImage.cpp">
 			<Option target="GIMPSEP"/>
 		</Unit>
-		<Unit filename="/Users/cecile/Documents/GitHub/Gimpsep/Dilate.h">
-			<Option target="GIMPSEP"/>
-		</Unit>
-		<Unit filename="/Users/cecile/Documents/GitHub/Gimpsep/Erode.cpp">
-			<Option target="GIMPSEP"/>
-		</Unit>
-		<Unit filename="/Users/cecile/Documents/GitHub/Gimpsep/Erode.h">
+		<Unit filename="/Users/cecile/Documents/GitHub/Gimpsep/ErodeImage.h">
 			<Option target="GIMPSEP"/>
 		</Unit>
 		<Unit filename="/Users/cecile/Documents/GitHub/Gimpsep/Image.cpp">
@@ -106,10 +100,10 @@
 		<Unit filename="/Users/cecile/Documents/GitHub/Gimpsep/Image.h">
 			<Option target="GIMPSEP"/>
 		</Unit>
-		<Unit filename="/Users/cecile/Documents/GitHub/Gimpsep/Resize.cpp">
+		<Unit filename="/Users/cecile/Documents/GitHub/Gimpsep/ResizeImage.cpp">
 			<Option target="GIMPSEP"/>
 		</Unit>
-		<Unit filename="/Users/cecile/Documents/GitHub/Gimpsep/Resize.h">
+		<Unit filename="/Users/cecile/Documents/GitHub/Gimpsep/ResizeImage.h">
 			<Option target="GIMPSEP"/>
 		</Unit>
 		<Unit filename="/Users/cecile/Documents/GitHub/Gimpsep/main.cpp">
