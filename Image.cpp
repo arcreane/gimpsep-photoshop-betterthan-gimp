@@ -2,19 +2,8 @@
 
 Image::~Image() {}
 
-void Image::setDataPath(const String folderPath) 
-{
-    path = folderPath;
-};
-
-void Image::setImage(const String folderPath, const String imageName) 
-{
-    setDataPath(folderPath);
-
-    samples::addSamplesDataSearchPath(folderPath);
-    String imagePath = samples::findFile(imageName);
-
-    image = imread(imagePath);
+void Image::setImage(const String folderPath, const String imageName) {
+    image = imread(folderPath + "/" + imageName);
 };
 
 void Image::changeImage(Mat newImage)

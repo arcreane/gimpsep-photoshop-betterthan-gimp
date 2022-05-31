@@ -12,17 +12,14 @@ class Image
 public:
     ~Image();
 
-    void setDataPath(const String path);
-    void setImage(const String path, const String name);
+    void setImage(const String folderPath, const String name);
     void changeImage(Mat image);
     void displayImage();
 
     Mat getImage();
     String getWindowName();
-
 private:
     String windowName = "Your Image";
-    String path;
     Mat image;
 };
 

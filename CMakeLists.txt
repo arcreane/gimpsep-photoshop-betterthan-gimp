@@ -9,6 +9,6 @@ include_directories(${OpenCV_INCLUDE_DIRS})
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(GIMPSEP main.cpp "Image.cpp" "Image.h" "ResizeImage.cpp" "ResizeImage.h"   "DilateImage.cpp" "DilateImage.h" "ErodeImage.cpp" "ErodeImage.h")
+add_executable(GIMPSEP main.cpp "Image.cpp" "Image.h" "ResizeImage.cpp" "ResizeImage.h"   "DilateImage.cpp" "DilateImage.h" "ErodeImage.cpp" "ErodeImage.h" "Folder.cpp" "Folder.h" "CannyEdgeDetection.cpp" "CannyEdgeDetection.h")
 
 target_link_libraries(GIMPSEP ${OpenCV_LIBS})
