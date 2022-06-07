@@ -32,3 +32,13 @@ void Folder::displayImageFromIndex(int index)
 {
     allImages[index].displayImage();
 }
+
+void Folder::saveFromIndex(int index)
+{
+    getImageFromIndex(index).save(path);
+}
+
+void Folder::saveAsFromIndex(const String name, int index)
+{
+    getImageFromIndex(index).saveAs(path, name);
+}

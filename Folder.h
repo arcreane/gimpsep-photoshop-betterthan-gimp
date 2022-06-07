@@ -13,6 +13,8 @@ public:
 	Mat getMatImageFromIndex(int index);
 	void changeImageFromIndex(int index, Mat image);
 	void displayImageFromIndex(int index);
+	void saveFromIndex(int index);
+	void saveAsFromIndex(const String name, int index);
 
 private:
 	String path;

@@ -15,11 +15,14 @@ public:
     void setImage(const String folderPath, const String name);
     void changeImage(Mat image);
     void displayImage();
+    void save(const String folderPath);
+    void saveAs(const String folderPath, const String imageNames);
 
     Mat getImage();
     String getWindowName();
 private:
     String windowName = "Your Image";
+    String name;
     Mat image;
 };
 
