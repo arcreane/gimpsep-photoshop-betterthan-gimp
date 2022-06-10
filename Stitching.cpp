@@ -100,7 +100,7 @@ int Stitching::configuration(Folder folder)
     selectingImages(folder);
     return EXIT_SUCCESS;
 }
-
+/*
 int main()
 {
     String path = "/Users/cecile/Documents/GitHub/Gimpsep/sample/data";
@@ -121,4 +121,4 @@ int main()
     imshow("Result", pano);
     waitKey(0);
     return EXIT_SUCCESS;
-}
+}*/
