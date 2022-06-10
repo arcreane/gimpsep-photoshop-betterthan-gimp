@@ -17,4 +17,4 @@ Mat CannyEdgeDetection::detect(Mat image, int thresholdOne, int thresholdTwo, Si
 	Canny(blurredImage, cannyImage, thresholdOne, thresholdTwo);
 
 	return cannyImage;
-};
+}

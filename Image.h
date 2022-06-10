@@ -13,6 +13,7 @@ public:
     ~Image();
 
     void setImage(const String folderPath, const String name);
+    void setImageFromMat(Mat matImage);
     void changeImage(Mat image);
     void displayImage();
     void save(const String folderPath);

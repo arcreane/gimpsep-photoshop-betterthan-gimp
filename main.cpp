@@ -317,22 +317,16 @@ int main() {
         else if (wanted == 5) 
         {
             Folder folderForStitching = Folder(folder.getFolderPath());
-            Stitching stitching = Stitching();
-            int configSuccess = stitching.configuration(folderForStitching);
-            if (configSuccess) return EXIT_FAILURE;
-            Mat pano;
-            Ptr<Stitcher> stitcher = Stitcher::create(stitching.mode);
-            Stitcher::Status status = stitcher->stitch(stitching.imgs, pano);
-            if (status != Stitcher::OK)
-            {
-                cout << "Can't stitch images, error code = " << int(status) << endl;
-                return EXIT_FAILURE;
+            Stitching stitching = Stitching(folderForStitching);
+
+            int index = folderForStitching.numberOfImage() - 1;
+            if (asImageDefine(folder)) {
+                folder.changeImageFromIndex(0, folderForStitching.getMatImageFromIndex(index));
             }
-            imwrite(stitching.result_name, pano);
-            cout << "stitching completed successfully\n" << stitching.result_name << " saved!";
-            imshow("Result", pano);
-            waitKey(0);
-            return EXIT_SUCCESS;
+            else
+            {
+                folder.addImage(folderForStitching.getImageFromIndex(index));
+            }
         }
         else if (wanted == 6)
         {

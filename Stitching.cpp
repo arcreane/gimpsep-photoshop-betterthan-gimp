@@ -4,45 +4,57 @@
 
 #include "Stitching.h"
 
-Stitching::Stitching() {}
+Stitching::Stitching(Folder& folder) 
+{
+    int configSuccess = configuration(folder);
+    if (configSuccess) {
+        throw exception("La configuration a échouée");
+    }
+
+    Mat pano;
+    Ptr<Stitcher> stitcher = Stitcher::create(mode);
+    Stitcher::Status status = stitcher->stitch(imgs, pano);
+
+    if (status != Stitcher::OK)
+    {
+        throw exception("Can't stitch images, error code = " + int(status));
+    }
+
+    cout << "stitching réalisé avec succès\n";
+
+    folder.addImageFromMat(pano);
+    folder.displayImageFromIndex(folder.numberOfImage() - 1);
+}
 
 Stitching::~Stitching() {}
 
-int Stitching::divideImages(){
-    String question = "Do you want to internally creates three chunks of each image to increase stitching success ?\nyes/no\n";
+int Stitching::divideImages()
+{
+    String question = "Voulez-vous créer en interne trois morceaux de chaque image pour augmenter le succès de l'assemblage ?\n(O/N)\n";
+    String wanted;
+
     cout << question;
-    String choice;
-    cin >> choice;
-    if (choice == "yes"){
+    cin >> wanted;
+
+    if (wanted == "O" || wanted == "o" || wanted == "Oui" || wanted == "oui"){
         divide_images = true;
     }
-    else if (choice == "no"){
+    else {
         divide_images = false;
     }
-    else
-    {
-        cout << "Bad value\n";
-        return EXIT_FAILURE;
-    }
+
     return EXIT_SUCCESS;
 }
 
-void Stitching::nameResult(){
-    String text2 = "Name the output of the image :\n";
-    cout << text2;
-    String choice2;
-    cin >> choice2;
-    result_name = choice2;
-}
-
 int Stitching::modeImages(){
-    String text3 = "Do you want to change configuration of stitcher to scans ? (default is panorama)\nyes/no\n";
-    cout << text3;
-    String choice3;
-    cin >> choice3;
-    if (choice3 == "no"){
+    String text = "Voulez-vous changer la configuration de l'assembleur en scans ? (par défaut :panorama)\n(O/N)\n";
+    String wanted;
+
+    cout << text;
+    cin >> wanted;
+    if (wanted == "N" || wanted == "n" || wanted == "Non" || wanted == "non"){
     }
-    else if (choice3 == "yes"){
+    else if (wanted == "O" || wanted == "o" || wanted == "Oui" || wanted == "oui"){
         mode = Stitcher::SCANS;
     }
     else
@@ -53,24 +65,36 @@ int Stitching::modeImages(){
     return EXIT_SUCCESS;
 }
 
-int Stitching::selectingImages(Folder folder){
-    String text = "Number of image\n";
+int Stitching::selectingImages(Folder folder)
+{
+    String text = "Nombre d'images ?\n";
+    int numberOfImage;
     cout << text;
-    int nb;
-    cin >> nb;
+    cin >> numberOfImage;
+
+    while (numberOfImage < 1)
+    {
+        cout << "Entrer un nombre supérieur à 1\n";
+        cin >> numberOfImage;
+    }
+
     Image img;
-    for (int i = 0; i < nb; ++i){
-        String text = "name of the file : \n";
-        cout << text;
+    for (int i = 0; i < numberOfImage; ++i){
+        String text = "Nom de l'image n°" + to_string(i + 1) + " (avec l'extension) :\n";
         String imageName;
+
+        cout << text;
         cin >> imageName;
+
         folder.addImageFromName(imageName);
         img = folder.getImageFromIndex(i);
+
         if (img.getImage().empty())
         {
             cout << "Can't read image \n";
             return EXIT_FAILURE;
         }
+
         if (divide_images)
         {
             Rect rect(0, 0, img.getImage().cols / 2, img.getImage().rows);
@@ -80,45 +104,27 @@ int Stitching::selectingImages(Folder folder){
             rect.x = img.getImage().cols / 2;
             imgs.push_back(img.getImage()(rect).clone());
         }
-        else
+        else {
             imgs.push_back(img.getImage());
+        }
     }
 }
 
 int Stitching::configuration(Folder folder)
 {
-    String question = "Enter 'edit' if you want to edit the parameters \n";
-    cout << question;
+    String question = "Vous-voulez changer les parametres ? (O/N)\n";
     String wanted;
+
+    cout << question;
     cin >> wanted;
-    if(wanted == "edit")
+
+    if(wanted == "O" || wanted == "o" || wanted == "Oui" || wanted == "oui")
     {
         divideImages();
-        nameResult();
         modeImages();
     }
+
     selectingImages(folder);
+
     return EXIT_SUCCESS;
 }
-/*
-int main()
-{
-    String path = "/Users/cecile/Documents/GitHub/Gimpsep/sample/data";
-    Folder folder = Folder(path);
-    Stitching stitching = Stitching();
-    int configSuccess = stitching.configuration(folder);
-    if (configSuccess) return EXIT_FAILURE;
-    Mat pano;
-    Ptr<Stitcher> stitcher = Stitcher::create(stitching.mode);
-    Stitcher::Status status = stitcher->stitch(stitching.imgs, pano);
-    if (status != Stitcher::OK)
-    {
-        cout << "Can't stitch images, error code = " << int(status) << endl;
-        return EXIT_FAILURE;
-    }
-    imwrite(stitching.result_name, pano);
-    cout << "stitching completed successfully\n" << stitching.result_name << " saved!";
-    imshow("Result", pano);
-    waitKey(0);
-    return EXIT_SUCCESS;
-}*/

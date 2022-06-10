@@ -11,17 +11,17 @@
 using namespace std;
 using namespace cv;
 
-class Stitching {
+class Stitching 
+{
 
-    public:
-    Stitching();
+public:
+    Stitching(Folder& folder);
     ~Stitching();
     int configuration(Folder folder);
-    string result_name = "result.jpg";
     Stitcher::Mode mode = Stitcher::PANORAMA;
     vector<Mat> imgs;
 
-    private:
+private:
     int divideImages();
     void nameResult();
     int modeImages();

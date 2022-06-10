@@ -13,6 +13,18 @@ void Folder::addImageFromName(String imageName)
     allImages.push_back(image);
 }
 
+void Folder::addImageFromMat(Mat image)
+{
+    Image img;
+    img.setImageFromMat(image);
+    allImages.push_back(img);
+}
+
+void Folder::addImage(Image image)
+{
+    allImages.push_back(image);
+}
+
 Image Folder::getImageFromIndex(int index)
 {
     return allImages[index];

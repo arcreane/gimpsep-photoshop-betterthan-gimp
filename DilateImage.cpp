@@ -13,10 +13,12 @@ Mat DilateImage::dilating(Mat image, int dilateElem, int dilateSize)
     if (dilateElem == 0) 
     { 
         dilateType = MORPH_RECT;
-    } else if (dilateElem == 1) 
+    } 
+    else if (dilateElem == 1) 
     { 
         dilateType = MORPH_CROSS;
-    } else if (dilateElem == 2) 
+    } 
+    else if (dilateElem == 2) 
     { 
         dilateType = MORPH_ELLIPSE; 
     }

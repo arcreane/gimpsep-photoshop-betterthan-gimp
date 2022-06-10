@@ -9,6 +9,8 @@ public:
 	Folder(String folderPath);
 	~Folder();
 	void addImageFromName(String imageName);
+	void addImageFromMat(Mat image);
+	void addImage(Image image);
 	Image getImageFromIndex(int index);
 	Mat getMatImageFromIndex(int index);
 	String getFolderPath();

@@ -5,7 +5,12 @@ Image::~Image() {}
 void Image::setImage(const String folderPath, const String imageName) {
     name = imageName;
     image = imread(folderPath + "/" + imageName);
-};
+}
+void Image::setImageFromMat(Mat matImage)
+{
+    image = matImage;
+}
+;
 
 void Image::changeImage(Mat newImage)
 {
