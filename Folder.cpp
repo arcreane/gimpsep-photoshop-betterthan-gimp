@@ -23,6 +23,14 @@ Mat Folder::getMatImageFromIndex(int index)
     return allImages[index].getImage();
 }
 
+vector<Mat> Folder::getMatImage()
+{
+    vector<Mat> img;
+    for(int i =0;i<allImages.size();i++)
+        img.push_back(getMatImageFromIndex(i));
+    return img;
+}
+
 void Folder::changeImageFromIndex(int index, Mat image)
 {
     allImages[index].changeImage(image);

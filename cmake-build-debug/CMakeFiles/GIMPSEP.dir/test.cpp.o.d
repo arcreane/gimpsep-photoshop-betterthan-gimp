@@ -1,5 +1,5 @@
-CMakeFiles/GIMPSEP.dir/main.cpp.o: \
-  /Users/cecile/Documents/GitHub/Gimpsep/main.cpp \
+CMakeFiles/GIMPSEP.dir/test.cpp.o: \
+  /Users/cecile/Documents/GitHub/Gimpsep/test.cpp \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/iostream \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__config \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__config_site \
@@ -415,10 +415,13 @@ CMakeFiles/GIMPSEP.dir/main.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_fsfilcnt_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/_types/_nl_item.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__bsd_locale_defaults.h \
-  /Users/cecile/Documents/GitHub/Gimpsep/Folder.h \
-  /Users/cecile/Documents/GitHub/Gimpsep/Image.h \
-  /usr/local/include/opencv4/opencv2/opencv.hpp \
-  /usr/local/include/opencv4/opencv2/opencv_modules.hpp \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/fstream \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/filesystem \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/stack \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/deque \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__split_buffer \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/iomanip \
+  /usr/local/include/opencv4/opencv2/imgcodecs.hpp \
   /usr/local/include/opencv4/opencv2/core.hpp \
   /usr/local/include/opencv4/opencv2/core/cvdef.h \
   /usr/local/include/opencv4/opencv2/core/version.hpp \
@@ -427,6 +430,7 @@ CMakeFiles/GIMPSEP.dir/main.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.1.6/include/arm_neon.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/array \
   /usr/local/include/opencv4/opencv2/core/base.hpp \
+  /usr/local/include/opencv4/opencv2/opencv_modules.hpp \
   /usr/local/include/opencv4/opencv2/core/cvstd.hpp \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/cmath \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/math.h \
@@ -445,7 +449,6 @@ CMakeFiles/GIMPSEP.dir/main.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.1.6/include/float.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/float.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/vector \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__split_buffer \
   /usr/local/include/opencv4/opencv2/core/mat.hpp \
   /usr/local/include/opencv4/opencv2/core/bufferpool.hpp \
   /usr/local/include/opencv4/opencv2/core/mat.inl.hpp \
@@ -457,11 +460,40 @@ CMakeFiles/GIMPSEP.dir/main.cpp.o: \
   /usr/local/include/opencv4/opencv2/core/utility.hpp \
   /usr/local/include/opencv4/opencv2/core/optim.hpp \
   /usr/local/include/opencv4/opencv2/core/ovx.hpp \
-  /usr/local/include/opencv4/opencv2/calib3d.hpp \
+  /usr/local/include/opencv4/opencv2/highgui.hpp \
+  /usr/local/include/opencv4/opencv2/videoio.hpp \
+  /usr/local/include/opencv4/opencv2/stitching.hpp \
   /usr/local/include/opencv4/opencv2/features2d.hpp \
   /usr/local/include/opencv4/opencv2/flann/miniflann.hpp \
   /usr/local/include/opencv4/opencv2/flann/defines.h \
   /usr/local/include/opencv4/opencv2/flann/config.h \
+  /usr/local/include/opencv4/opencv2/stitching/warpers.hpp \
+  /usr/local/include/opencv4/opencv2/stitching/detail/warpers.hpp \
+  /usr/local/include/opencv4/opencv2/core/cuda.hpp \
+  /usr/local/include/opencv4/opencv2/core/cuda_types.hpp \
+  /usr/local/include/opencv4/opencv2/core/cuda.inl.hpp \
+  /usr/local/include/opencv4/opencv2/imgproc.hpp \
+  /usr/local/include/opencv4/opencv2/./imgproc/segmentation.hpp \
+  /usr/local/include/opencv4/opencv2/stitching/detail/warpers_inl.hpp \
+  /usr/local/include/opencv4/opencv2/stitching/detail/matchers.hpp \
+  /usr/local/include/opencv4/opencv2/stitching/detail/motion_estimators.hpp \
+  /usr/local/include/opencv4/opencv2/stitching/detail/util.hpp \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/list \
+  /usr/local/include/opencv4/opencv2/stitching/detail/util_inl.hpp \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/queue \
+  /usr/local/include/opencv4/opencv2/stitching/detail/camera.hpp \
+  /usr/local/include/opencv4/opencv2/stitching/detail/exposure_compensate.hpp \
+  /usr/local/include/opencv4/opencv2/stitching/detail/seam_finders.hpp \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/set \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__functional/is_transparent.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__node_handle \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/optional \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__tree \
+  /usr/local/include/opencv4/opencv2/stitching/detail/blenders.hpp \
+  /Users/cecile/Documents/GitHub/Gimpsep/Folder.h \
+  /Users/cecile/Documents/GitHub/Gimpsep/Image.h \
+  /usr/local/include/opencv4/opencv2/opencv.hpp \
+  /usr/local/include/opencv4/opencv2/calib3d.hpp \
   /usr/local/include/opencv4/opencv2/core/affine.hpp \
   /usr/local/include/opencv4/opencv2/dnn.hpp \
   /usr/local/include/opencv4/opencv2/dnn/dnn.hpp \
@@ -469,10 +501,6 @@ CMakeFiles/GIMPSEP.dir/main.cpp.o: \
   /usr/local/include/opencv4/opencv2/dnn/../dnn/version.hpp \
   /usr/local/include/opencv4/opencv2/dnn/dict.hpp \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/map \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__functional/is_transparent.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__node_handle \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/optional \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__tree \
   /usr/local/include/opencv4/opencv2/dnn/layer.hpp \
   /usr/local/include/opencv4/opencv2/dnn/dnn.inl.hpp \
   /usr/local/include/opencv4/opencv2/dnn/utils/inference_engine.hpp \
@@ -486,7 +514,6 @@ CMakeFiles/GIMPSEP.dir/main.cpp.o: \
   /usr/local/include/opencv4/opencv2/flann/saving.h \
   /usr/local/include/opencv4/opencv2/flann/nn_index.h \
   /usr/local/include/opencv4/opencv2/flann/result_set.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/set \
   /usr/local/include/opencv4/opencv2/flann/all_indices.h \
   /usr/local/include/opencv4/opencv2/flann/kdtree_index.h \
   /usr/local/include/opencv4/opencv2/flann/dynamic_bitset.h \
@@ -504,46 +531,17 @@ CMakeFiles/GIMPSEP.dir/main.cpp.o: \
   /usr/local/include/opencv4/opencv2/flann/hierarchical_clustering_index.h \
   /usr/local/include/opencv4/opencv2/flann/lsh_index.h \
   /usr/local/include/opencv4/opencv2/flann/lsh_table.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/iomanip \
   /usr/local/include/opencv4/opencv2/flann/autotuned_index.h \
   /usr/local/include/opencv4/opencv2/flann/ground_truth.h \
   /usr/local/include/opencv4/opencv2/flann/index_testing.h \
   /usr/local/include/opencv4/opencv2/flann/timer.h \
   /usr/local/include/opencv4/opencv2/flann/sampling.h \
-  /usr/local/include/opencv4/opencv2/highgui.hpp \
-  /usr/local/include/opencv4/opencv2/imgcodecs.hpp \
-  /usr/local/include/opencv4/opencv2/videoio.hpp \
-  /usr/local/include/opencv4/opencv2/imgproc.hpp \
-  /usr/local/include/opencv4/opencv2/./imgproc/segmentation.hpp \
   /usr/local/include/opencv4/opencv2/ml.hpp \
   /usr/local/include/opencv4/opencv2/ml/ml.inl.hpp \
   /usr/local/include/opencv4/opencv2/objdetect.hpp \
   /usr/local/include/opencv4/opencv2/objdetect/detection_based_tracker.hpp \
   /usr/local/include/opencv4/opencv2/objdetect/face.hpp \
   /usr/local/include/opencv4/opencv2/photo.hpp \
-  /usr/local/include/opencv4/opencv2/stitching.hpp \
-  /usr/local/include/opencv4/opencv2/stitching/warpers.hpp \
-  /usr/local/include/opencv4/opencv2/stitching/detail/warpers.hpp \
-  /usr/local/include/opencv4/opencv2/core/cuda.hpp \
-  /usr/local/include/opencv4/opencv2/core/cuda_types.hpp \
-  /usr/local/include/opencv4/opencv2/core/cuda.inl.hpp \
-  /usr/local/include/opencv4/opencv2/stitching/detail/warpers_inl.hpp \
-  /usr/local/include/opencv4/opencv2/stitching/detail/matchers.hpp \
-  /usr/local/include/opencv4/opencv2/stitching/detail/motion_estimators.hpp \
-  /usr/local/include/opencv4/opencv2/stitching/detail/util.hpp \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/list \
-  /usr/local/include/opencv4/opencv2/stitching/detail/util_inl.hpp \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/queue \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/deque \
-  /usr/local/include/opencv4/opencv2/stitching/detail/camera.hpp \
-  /usr/local/include/opencv4/opencv2/stitching/detail/exposure_compensate.hpp \
-  /usr/local/include/opencv4/opencv2/stitching/detail/seam_finders.hpp \
-  /usr/local/include/opencv4/opencv2/stitching/detail/blenders.hpp \
   /usr/local/include/opencv4/opencv2/video.hpp \
   /usr/local/include/opencv4/opencv2/video/tracking.hpp \
-  /usr/local/include/opencv4/opencv2/video/background_segm.hpp \
-  /Users/cecile/Documents/GitHub/Gimpsep/ResizeImage.h \
-  /Users/cecile/Documents/GitHub/Gimpsep/DilateImage.h \
-  /Users/cecile/Documents/GitHub/Gimpsep/ErodeImage.h \
-  /Users/cecile/Documents/GitHub/Gimpsep/CannyEdgeDetection.h \
-  /Users/cecile/Documents/GitHub/Gimpsep/Stitching.h
+  /usr/local/include/opencv4/opencv2/video/background_segm.hpp

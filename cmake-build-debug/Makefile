@@ -129,6 +129,30 @@ GIMPSEP/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/GIMPSEP.dir/build.make CMakeFiles/GIMPSEP.dir/build
 .PHONY : GIMPSEP/fast
 
+CannyEdgeDetection.o: CannyEdgeDetection.cpp.o
+.PHONY : CannyEdgeDetection.o
+
+# target to build an object file
+CannyEdgeDetection.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GIMPSEP.dir/build.make CMakeFiles/GIMPSEP.dir/CannyEdgeDetection.cpp.o
+.PHONY : CannyEdgeDetection.cpp.o
+
+CannyEdgeDetection.i: CannyEdgeDetection.cpp.i
+.PHONY : CannyEdgeDetection.i
+
+# target to preprocess a source file
+CannyEdgeDetection.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GIMPSEP.dir/build.make CMakeFiles/GIMPSEP.dir/CannyEdgeDetection.cpp.i
+.PHONY : CannyEdgeDetection.cpp.i
+
+CannyEdgeDetection.s: CannyEdgeDetection.cpp.s
+.PHONY : CannyEdgeDetection.s
+
+# target to generate assembly for a file
+CannyEdgeDetection.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GIMPSEP.dir/build.make CMakeFiles/GIMPSEP.dir/CannyEdgeDetection.cpp.s
+.PHONY : CannyEdgeDetection.cpp.s
+
 DilateImage.o: DilateImage.cpp.o
 .PHONY : DilateImage.o
 
@@ -176,6 +200,30 @@ ErodeImage.s: ErodeImage.cpp.s
 ErodeImage.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/GIMPSEP.dir/build.make CMakeFiles/GIMPSEP.dir/ErodeImage.cpp.s
 .PHONY : ErodeImage.cpp.s
+
+Folder.o: Folder.cpp.o
+.PHONY : Folder.o
+
+# target to build an object file
+Folder.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GIMPSEP.dir/build.make CMakeFiles/GIMPSEP.dir/Folder.cpp.o
+.PHONY : Folder.cpp.o
+
+Folder.i: Folder.cpp.i
+.PHONY : Folder.i
+
+# target to preprocess a source file
+Folder.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GIMPSEP.dir/build.make CMakeFiles/GIMPSEP.dir/Folder.cpp.i
+.PHONY : Folder.cpp.i
+
+Folder.s: Folder.cpp.s
+.PHONY : Folder.s
+
+# target to generate assembly for a file
+Folder.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GIMPSEP.dir/build.make CMakeFiles/GIMPSEP.dir/Folder.cpp.s
+.PHONY : Folder.cpp.s
 
 Image.o: Image.cpp.o
 .PHONY : Image.o
@@ -225,6 +273,30 @@ ResizeImage.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/GIMPSEP.dir/build.make CMakeFiles/GIMPSEP.dir/ResizeImage.cpp.s
 .PHONY : ResizeImage.cpp.s
 
+Stitching.o: Stitching.cpp.o
+.PHONY : Stitching.o
+
+# target to build an object file
+Stitching.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GIMPSEP.dir/build.make CMakeFiles/GIMPSEP.dir/Stitching.cpp.o
+.PHONY : Stitching.cpp.o
+
+Stitching.i: Stitching.cpp.i
+.PHONY : Stitching.i
+
+# target to preprocess a source file
+Stitching.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GIMPSEP.dir/build.make CMakeFiles/GIMPSEP.dir/Stitching.cpp.i
+.PHONY : Stitching.cpp.i
+
+Stitching.s: Stitching.cpp.s
+.PHONY : Stitching.s
+
+# target to generate assembly for a file
+Stitching.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GIMPSEP.dir/build.make CMakeFiles/GIMPSEP.dir/Stitching.cpp.s
+.PHONY : Stitching.cpp.s
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -258,18 +330,27 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... GIMPSEP"
+	@echo "... CannyEdgeDetection.o"
+	@echo "... CannyEdgeDetection.i"
+	@echo "... CannyEdgeDetection.s"
 	@echo "... DilateImage.o"
 	@echo "... DilateImage.i"
 	@echo "... DilateImage.s"
 	@echo "... ErodeImage.o"
 	@echo "... ErodeImage.i"
 	@echo "... ErodeImage.s"
+	@echo "... Folder.o"
+	@echo "... Folder.i"
+	@echo "... Folder.s"
 	@echo "... Image.o"
 	@echo "... Image.i"
 	@echo "... Image.s"
 	@echo "... ResizeImage.o"
 	@echo "... ResizeImage.i"
 	@echo "... ResizeImage.s"
+	@echo "... Stitching.o"
+	@echo "... Stitching.i"
+	@echo "... Stitching.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

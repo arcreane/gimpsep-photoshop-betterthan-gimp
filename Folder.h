@@ -15,6 +15,7 @@ public:
 	void displayImageFromIndex(int index);
 	void saveFromIndex(int index);
 	void saveAsFromIndex(const String name, int index);
+    vector<Mat> getMatImage();
 
 private:
 	String path;

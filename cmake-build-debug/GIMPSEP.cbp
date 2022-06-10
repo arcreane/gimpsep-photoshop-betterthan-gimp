@@ -82,6 +82,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/cecile/Documents/GitHub/Gimpsep/CannyEdgeDetection.cpp">
+			<Option target="GIMPSEP"/>
+		</Unit>
+		<Unit filename="/Users/cecile/Documents/GitHub/Gimpsep/CannyEdgeDetection.h">
+			<Option target="GIMPSEP"/>
+		</Unit>
 		<Unit filename="/Users/cecile/Documents/GitHub/Gimpsep/DilateImage.cpp">
 			<Option target="GIMPSEP"/>
 		</Unit>
@@ -94,6 +100,12 @@
 		<Unit filename="/Users/cecile/Documents/GitHub/Gimpsep/ErodeImage.h">
 			<Option target="GIMPSEP"/>
 		</Unit>
+		<Unit filename="/Users/cecile/Documents/GitHub/Gimpsep/Folder.cpp">
+			<Option target="GIMPSEP"/>
+		</Unit>
+		<Unit filename="/Users/cecile/Documents/GitHub/Gimpsep/Folder.h">
+			<Option target="GIMPSEP"/>
+		</Unit>
 		<Unit filename="/Users/cecile/Documents/GitHub/Gimpsep/Image.cpp">
 			<Option target="GIMPSEP"/>
 		</Unit>
@@ -104,6 +116,12 @@
 			<Option target="GIMPSEP"/>
 		</Unit>
 		<Unit filename="/Users/cecile/Documents/GitHub/Gimpsep/ResizeImage.h">
+			<Option target="GIMPSEP"/>
+		</Unit>
+		<Unit filename="/Users/cecile/Documents/GitHub/Gimpsep/Stitching.cpp">
+			<Option target="GIMPSEP"/>
+		</Unit>
+		<Unit filename="/Users/cecile/Documents/GitHub/Gimpsep/Stitching.h">
 			<Option target="GIMPSEP"/>
 		</Unit>
 		<Unit filename="/Users/cecile/Documents/GitHub/Gimpsep/main.cpp">
