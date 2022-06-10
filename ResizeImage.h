@@ -3,6 +3,7 @@
 
 #include <opencv2/opencv.hpp>
 #include <string>
+#include "Folder.h"
 
 using namespace cv;
 using namespace std;
@@ -10,6 +11,7 @@ using namespace std;
 class ResizeImage
 {
 public:
+    ResizeImage(Folder& folder, int scale);
     ~ResizeImage();
 
     Mat resizing(Mat image, double scale);

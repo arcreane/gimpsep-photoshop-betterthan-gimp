@@ -1,5 +1,11 @@
 #include "ErodeImage.h"
 
+ErodeImage::ErodeImage(Folder& folder, int erodeElem, int erodeSize)
+{
+    folder.changeImageFromIndex(0, eroding(folder.getMatImageFromIndex(0), erodeElem, erodeSize));
+    folder.displayImageFromIndex(0);
+}
+
 ErodeImage::~ErodeImage() {}
 
 Mat ErodeImage::eroding(Mat image, int erodeElem, int erodeSize)

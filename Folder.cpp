@@ -1,6 +1,6 @@
 #include "Folder.h"
 
-Folder::Folder(String& folderPath) {
+Folder::Folder(String folderPath) {
     path = folderPath;
 }
 
@@ -23,6 +23,11 @@ Mat Folder::getMatImageFromIndex(int index)
     return allImages[index].getImage();
 }
 
+String Folder::getFolderPath()
+{
+    return path;
+}
+
 void Folder::changeImageFromIndex(int index, Mat image)
 {
     allImages[index].changeImage(image);
@@ -41,4 +46,9 @@ void Folder::saveFromIndex(int index)
 void Folder::saveAsFromIndex(const String name, int index)
 {
     getImageFromIndex(index).saveAs(path, name);
+}
+
+int Folder::numberOfImage()
+{
+    return allImages.size();
 }

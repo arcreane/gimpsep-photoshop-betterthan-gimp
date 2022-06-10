@@ -1,5 +1,11 @@
 #include "DilateImage.h"
 
+DilateImage::DilateImage(Folder& folder, int dilateElem, int dilateSize)
+{
+    folder.changeImageFromIndex(0, dilating(folder.getMatImageFromIndex(0), dilateElem, dilateSize));
+    folder.displayImageFromIndex(0);
+}
+
 DilateImage::~DilateImage() {}
 
 Mat DilateImage::dilating(Mat image, int dilateElem, int dilateSize) 
