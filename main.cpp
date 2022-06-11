@@ -317,7 +317,15 @@ int main() {
         else if (wanted == 5) 
         {
             Folder folderForStitching = Folder(folder.getFolderPath());
-            Stitching stitching = Stitching(folderForStitching);
+            try
+            {
+                Stitching stitching = Stitching(folderForStitching);
+            }
+            catch (const runtime_error& e)
+            {
+                cerr << e.what() << endl;
+                return -1;
+            }
 
             int index = folderForStitching.numberOfImage() - 1;
             if (asImageDefine(folder)) {

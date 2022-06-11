@@ -1,14 +1,10 @@
-//
-// Created by Cecile LI on 07/06/2022.
-//
-
 #include "Stitching.h"
 
 Stitching::Stitching(Folder& folder) 
 {
     int configSuccess = configuration(folder);
     if (configSuccess) {
-        throw exception("La configuration a échouée");
+        throw runtime_error("La configuration a échouée");
     }
 
     Mat pano;
@@ -17,7 +13,7 @@ Stitching::Stitching(Folder& folder)
 
     if (status != Stitcher::OK)
     {
-        throw exception("Can't stitch images, error code = " + int(status));
+        throw runtime_error("Can't stitch images, error code = " + int(status));
     }
 
     cout << "stitching réalisé avec succès\n";

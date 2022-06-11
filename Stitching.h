@@ -23,7 +23,6 @@ public:
 
 private:
     int divideImages();
-    void nameResult();
     int modeImages();
     int selectingImages(Folder folder);
     bool divide_images = false;
